@@ -5,7 +5,7 @@ INCLUDES+=-I src
 
 CFLAGS?=-Wall -std=c99
 
-include lib/.dep/config.mk
+# include lib/.dep/config.mk
 
 CFLAGS+=$(INCLUDES)
 CFLAGS+=-D_DEFAULT_SOURCE
